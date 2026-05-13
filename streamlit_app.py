@@ -287,16 +287,6 @@ with tab1:
     st.markdown("""<div class="image-caption">An increasing number of people, a plurality but not a majority, want wealth distribution reform.</div>""", unsafe_allow_html=True)
 
 
-   
-    # Section 6: Closing
-    st.markdown("""
-    <div class="main-container">
-        <div class="text-block">
-            <p> In summary, while all economic metrics have value, we shouldn't focus exclusively on GDP, unemployment and inflation to measure economic well-being. While they are useful in limited capacities, they cover up the broader picture. Better estimates for unemployment account for under-employment. Better estimates of overall economic health look at purchasing power and real-wage evolution, not gross domestic product and hyperinflation, and better economic policy in general starts with dispelling the notion that hard work can compensate for unlivable wages and wealth concentration in the hands of a few. </p>
-            </div>
-    </div>
-    """, unsafe_allow_html=True)
-
     #image: most people belive the federal govt has a role to play econ in policy reform
     st.image("income_policy.png", use_column_width=True)
     st.markdown("""<div class="image-caption">most people think the federal govt has a role to play in policy reform</div>""", unsafe_allow_html=True)
@@ -306,7 +296,14 @@ with tab1:
     st.image("get_ahead.png", use_column_width=True)
     st.markdown("""<div class="image-caption">Polls reveal that while people acknowledge disparity, they still believe in hard work over characteristic determinants of economic outcome</div>""", unsafe_allow_html=True)
 
-    
+    # Section 6: Closing
+    st.markdown("""
+    <div class="main-container">
+        <div class="text-block">
+            <p> In summary, while all economic metrics have value, we shouldn't focus exclusively on GDP, unemployment and inflation to measure economic well-being. While they are useful in limited capacities, they cover up the broader picture. Better estimates for unemployment account for under-employment. Better estimates of overall economic health look at purchasing power and real-wage evolution, not gross domestic product and hyperinflation, and better economic policy in general starts with dispelling the notion that hard work can compensate for unlivable wages and wealth concentration in the hands of a few. </p>
+            </div>
+    </div>
+    """, unsafe_allow_html=True)
 
 with tab2:
     st.markdown("""<div class="main-container">
