@@ -257,7 +257,7 @@ with tab1:
     
     
     # image: million vs billion financial comparision
-    st.image("million_vs_billion.png", use_column_width=True)
+    st.image("billion_vs_million.png", use_column_width=True)
     st.markdown("""<div class="image-caption">A billion dollars is such an order of magnitude higher than a million that it reaches past the world's tallest skyscraper.</div>""", unsafe_allow_html=True)
 
 
