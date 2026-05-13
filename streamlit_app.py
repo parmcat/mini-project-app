@@ -313,38 +313,34 @@ with tab2:
     </div>
     """, unsafe_allow_html=True)
     
-    st.markdown("""<div class="main-container">
+    st.markdown("""
+    <div class="main-container">
         <div style="margin-bottom: 50px;">
             <h3 style="font-size: 24px; font-weight: 600; margin-bottom: 20px;">Data Sources</h3>
-            
             <div class="source-item">
                 <div class="source-title">Bureau of Labor Statistics (BLS)</div>
                 <div class="source-details">U.S. Department of Labor</div>
                 <div class="source-details">Data on employment, unemployment rates, wage growth, purchasing power parity, and consumer price index (CPI) from 1960-2026</div>
                 <div class="source-url">www.bls.gov</div>
             </div>
-
             <div class="source-item">
                 <div class="source-title">YouGov</div>
                 <div class="source-details">YouGov Polling + The Economist</div>
                 <div class="source-details">Data on public preception of economic stratification and outcomes</div>
                 <div class="source-url">www.yougov.com</div>
             </div>
-            
             <div class="source-item">
                 <div class="source-title">Federal Reserve Economic Data (FRED)</div>
                 <div class="source-details">Federal Reserve Bank of St. Louis</div>
                 <div class="source-details">Real GDP growth, nominal GDP, inflation rates, real personal income, and macroeconomic indicators</div>
                 <div class="source-url">fred.stlouisfed.org</div>
             </div>
-
             <div class="source-item">
                 <div class="source-title">Massachusettes Institute of Technology</div>
                 <div class="source-details">MIT</div>
                 <div class="source-details">Realistic living wage estimations based on housing, healthcare, childcare, and other factors</div>
                 <div class="source-url">livingwage.mit.edu/</div>
             </div>
-            
             <div class="source-item">
                 <div class="source-title">U.S. Census Bureau</div>
                 <div class="source-details">Housing and Household Economic Statistics Division</div>
