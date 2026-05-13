@@ -225,7 +225,7 @@ with tab1:
     
     
     # image underemploymnet
-    st.image("underemployment_state.png", use_column_width=True)
+    st.image("unemployment_state.png", use_column_width=True)
     st.markdown("""<div class="image-caption">Under-employment is an unpopular metric in the press, but it does a better job of telling us the truth about US workplace vitality. Above, it is factored into the unemployment numbers for each state.</div>""", unsafe_allow_html=True)
     
  
