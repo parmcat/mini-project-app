@@ -225,7 +225,7 @@ with tab1:
     
     
     # image underemploymnet
-    st.image("unemployment_state.png", use_column_width=True)
+    st.image("underemployment_state.png", use_column_width=True)
     st.markdown("""<div class="image-caption">Under-employment is an unpopular metric in the press, but it does a better job of telling us the truth about US workplace vitality. Above, it is factored into the unemployment numbers for each state.</div>""", unsafe_allow_html=True)
     
  
@@ -257,7 +257,7 @@ with tab1:
     
     
     # image: million vs billion financial comparision
-    st.image("billion_vs_million.png", use_column_width=True)
+    st.image("million_vs_billion.png", use_column_width=True)
     st.markdown("""<div class="image-caption">A billion dollars is such an order of magnitude higher than a million that it reaches past the world's tallest skyscraper.</div>""", unsafe_allow_html=True)
 
 
@@ -292,7 +292,7 @@ with tab1:
     st.markdown("""
     <div class="main-container">
         <div class="text-block">
-            <p> End notes </p>
+            <p> In summary, while all economic metrics have value, we shouldn't focus exclusively on GDP, unemployment and inflation to measure economic well-being. While they are useful in limited capacities, they cover up the broader picture. Better estimates for unemployment account for under-employment. Better estimates of overall economic health look at purchasing power and real-wage evolution, not gross domestic product and hyperinflation, and better economic policy in general starts with dispelling the notion that hard work can compensate for unlivable wages and wealth concentration in the hands of a few. </p>
             </div>
     </div>
     """, unsafe_allow_html=True)
@@ -304,21 +304,19 @@ with tab1:
     
     #image: polls reveal that while people acknowledge disparity, they still belive in hard work over characteristic determinants of economic outcome
     st.image("get_ahead.png", use_column_width=True)
-    st.markdown("""<div class="image-caption">Polls reveal that while people acknowledge disparity, they still belive in hard work over characteristic determinants of economic outcome</div>""", unsafe_allow_html=True)
+    st.markdown("""<div class="image-caption">Polls reveal that while people acknowledge disparity, they still believe in hard work over characteristic determinants of economic outcome</div>""", unsafe_allow_html=True)
 
     
 
 with tab2:
-    st.markdown("""
-    <div class="main-container">
+    st.markdown("""<div class="main-container">
         <div style="margin-bottom: 40px;">
             <h2 style="font-size: 42px; font-weight: 700; margin-bottom: 30px; border-bottom: 3px solid #CC0000; padding-bottom: 20px;">Sources & Methodology</h2>
         </div>
     </div>
     """, unsafe_allow_html=True)
     
-    st.markdown("""
-    <div class="main-container">
+    st.markdown("""<div class="main-container">
         <div style="margin-bottom: 50px;">
             <h3 style="font-size: 24px; font-weight: 600; margin-bottom: 20px;">Data Sources</h3>
             
@@ -328,12 +326,26 @@ with tab2:
                 <div class="source-details">Data on employment, unemployment rates, wage growth, purchasing power parity, and consumer price index (CPI) from 1960-2026</div>
                 <div class="source-url">www.bls.gov</div>
             </div>
+
+            <div class="source-item">
+                <div class="source-title">YouGov</div>
+                <div class="source-details">YouGov Polling + The Economist</div>
+                <div class="source-details">Data on public preception of economic stratification and outcomes</div>
+                <div class="source-url">www.yougov.com</div>
+            </div>
             
             <div class="source-item">
                 <div class="source-title">Federal Reserve Economic Data (FRED)</div>
                 <div class="source-details">Federal Reserve Bank of St. Louis</div>
                 <div class="source-details">Real GDP growth, nominal GDP, inflation rates, real personal income, and macroeconomic indicators</div>
                 <div class="source-url">fred.stlouisfed.org</div>
+            </div>
+
+            <div class="source-item">
+                <div class="source-title">Massachusettes Institute of Technology</div>
+                <div class="source-details">MIT</div>
+                <div class="source-details">Realistic living wage estimations based on housing, healthcare, childcare, and other factors</div>
+                <div class="source-url">livingwage.mit.edu/</div>
             </div>
             
             <div class="source-item">
